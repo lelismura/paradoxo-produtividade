@@ -1,0 +1,1 @@
+# Paradoxo da Produtividade
