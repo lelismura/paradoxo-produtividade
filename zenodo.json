@@ -1,0 +1,32 @@
+{
+  "title": "Paradoxo da Produtividade: Impactos das Ferramentas No-Code e Low-Code",
+  "upload_type": "dataset",
+  "description": "Este repositório contém o código e os dados utilizados no estudo 'Paradoxo da Produtividade', que investiga como ferramentas No-Code e Low-Code afetam a produtividade no desenvolvimento de software. O projeto combina análise empírica e revisão teórica para identificar o paradoxo entre automação e desempenho real de equipes de TI.",
+  "creators": [
+    {
+      "name": "Murakami, Lelis",
+      "affiliation": "FATEC / Centro Paula Souza",
+      "orcid": "0000-0002-9298-770X"
+    }
+  ],
+  "access_right": "open",
+  "license": "MIT",
+  "keywords": [
+    "produtividade",
+    "no-code",
+    "low-code",
+    "engenharia de software",
+    "automação",
+    "paradoxo da produtividade",
+    "ciência de dados"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/lelimura/paradoxo-produtividade",
+      "relation": "isSupplementTo",
+      "resource_type": "software"
+    }
+  ],
+  "version": "1.0.1",
+  "language": "por"
+}
