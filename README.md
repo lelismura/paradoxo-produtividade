@@ -106,27 +106,3 @@ Instituição: FATEC / Centro Paula Souza
 Repositório: GitHub – lelimura/paradoxo-produtividade
 
 
----
-
-### 3️⃣ Role até o final
-- Mensagem de commit:  
-
-
-atualiza README.md com descrição completa e DOI
-
-- Marque ✅ *Comprometer diretamente na branch principal*  
-- Clique em **Confirmar alterações** (botão verde).
-
----
-
-✅ **Resultado final esperado:**
-- O repositório exibirá o **selo Zenodo (DOI)** e os **badges** de Python e Licença.  
-- O README estará formatado profissionalmente, pronto para indexação e submissão junto ao artigo.  
-- A página inicial do GitHub já servirá como a **página de referência do dataset e código do artigo.**
-
----
-
-Deseja seguir agora para o **Passo 8 — Criar o primeiro notebook Jupyter (experimento exploratório inicial com dados públicos reais)**?  
-Esse passo começa a parte prática do artigo (base de dados e análise comparativa).
-
-
