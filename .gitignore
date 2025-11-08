@@ -1,0 +1,38 @@
+# Arquivos temporários
+*.log
+*.tmp
+*.bak
+*.swp
+*.DS_Store
+
+# Cache e metadados do sistema
+__pycache__/
+.vscode/
+.idea/
+.ipynb_checkpoints/
+
+# Ambientes virtuais
+env/
+venv/
+.env/
+.venv/
+
+# Dados locais grandes
+data/raw/*
+!data/raw/.gitkeep
+
+data/processed/*
+!data/processed/.gitkeep
+
+# Resultados e figuras temporárias
+reports/figures/*
+!reports/figures/.gitkeep
+
+# Arquivos de build e pacotes
+build/
+dist/
+*.egg-info/
+
+# Arquivos do sistema operacional
+Thumbs.db
+desktop.ini
