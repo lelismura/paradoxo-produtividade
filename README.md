@@ -45,26 +45,21 @@ source .venv/bin/activate    # Linux/macOS
 .venv\Scripts\activate       # Windows
 pip install -r requirements.txt
 
+Usando conda/mamba
 mamba env create -f environment.yml
 mamba activate paradoxo
 
 Rodar um teste rápido
-
 Baixar dados de amostra (PETR4, BBAS3, VALE3 e USDBRL) e salvar em dados/processado:
-
 python src/fetch_sample.py
 
-
 Gerar resumo e gráficos:
-
 python -m src.analise_produtividade
 
 📊 Exemplo de saída esperada
 
 Resumo estatístico com médias e desvios-padrão das séries.
-
 Correlação entre variáveis exibida em formato tabular.
-
 Mapa de calor (heatmap) das correlações entre ativos.
 
 (As figuras são salvas automaticamente em /reports/figures/.)
@@ -72,16 +67,12 @@ Mapa de calor (heatmap) das correlações entre ativos.
 🧩 Objetivo Científico
 
 O estudo busca responder empiricamente:
-
 “Ferramentas visuais realmente aumentam a produtividade em longo prazo ou apenas mascaram a complexidade do processo analítico?”
 
 Os experimentos futuros irão comparar:
-
-Tempo de execução de tarefas visuais vs. codificadas
-
-Reprodutibilidade dos resultados
-
-Complexidade de manutenção dos fluxos
+* Tempo de execução de tarefas visuais vs. codificadas
+* Reprodutibilidade dos resultados
+* Complexidade de manutenção dos fluxos
 
 🧾 Citação
 
@@ -90,18 +81,13 @@ Se utilizar este repositório, cite da seguinte forma:
 Murakami, Lelis (2025).
 Paradoxo da Produtividade: Impactos das Ferramentas No-Code e Low-Code.
 DOI: 10.5281/zenodo.17535978
-
 Licença: MIT.
 
 📜 Licença
-
 Este projeto está licenciado sob os termos da Licença MIT
-.
 
 🧭 Contato
-
 Autor: Lelis Murakami
-
 Instituição: FATEC / Centro Paula Souza
 Repositório: GitHub – lelimura/paradoxo-produtividade
 
